@@ -108,6 +108,7 @@ a {
 }
 
 .check-button:hover {
+    color: #222222;
     border-bottom: 10px solid #3F3D56;
     padding: 16px 0px 9px;
 }
