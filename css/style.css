@@ -725,7 +725,7 @@ html {
       }
 
     .research-card.reverse {
-        grid-template-columns: 59% 40%;
+        grid-template-columns: 55% 40%;
       }
 
     .research-img-container {
