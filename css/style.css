@@ -257,11 +257,7 @@ html {
 
 /* Contact Page CSS */
 
-.contact-section {
-    text-align: center;
-    padding: 100px 20px;
-}
-  
+
 
 .social-icons {
     display: flex;
@@ -410,6 +406,12 @@ html {
         margin: 6px;
     }
 
+    .contact-section {
+        text-align: center;
+        padding: 50px 20px;
+    }
+      
+
 }
 
 
@@ -515,6 +517,12 @@ html {
         margin: 6px;
     }
 
+    .contact-section {
+        text-align: center;
+        padding: 50px 20px;
+    }
+      
+
 }
 
 
@@ -618,6 +626,12 @@ html {
         height: 32px;
         margin: 6px;
     }
+
+    .contact-section {
+        text-align: center;
+        padding: 100px 20px;
+    }
+      
 
 }
 
@@ -727,6 +741,14 @@ html {
         align-items: flex-start;
     }
 
+    .contact-section {
+        text-align: center;
+        padding: 150px 20px;
+    }
+
+    
+      
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -776,6 +798,11 @@ html {
         object-position: center top; /* Adjust for more/less headroom */
         display: block;
       }
+
+      .contact-section {
+        text-align: center;
+        padding: 200px 20px;
+    }
     
    
     
