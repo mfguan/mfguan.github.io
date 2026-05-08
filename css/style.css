@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 body {
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #282828;
@@ -8,7 +10,7 @@ body {
 }
 
 .body-s {
-    font-size: 15px;
+    font-size: 16px;
     color: #4a4a4a;
 }
 
@@ -21,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
     color: #4a4a4a;
     margin: 20px 0px;
@@ -29,16 +31,17 @@ h2 {
 
 h3 {
     font-size: 24px;
-    font-weight: 550;
+    font-weight: 500;
+    font-style: italic;
     color: #4a4a4a;
-    margin: 50px 0px 30px;
+    margin: 30px 0px;
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
     color: #393939;
-    margin: 30px 0px 30px;
+    margin: 20px 0px;
 }
 
 h5 {
@@ -54,10 +57,10 @@ a {
 }
 
 .title-underline {
-    width: 120px;       /* Adjust the length of the line */
-    height: 4px;       /* Thickness of the line */
+    width: 150px;       /* Adjust the length of the line */
+    height: 2px;       /* Thickness of the line */
     background-color: #4a4a4a; /* Change the color if needed */
-    margin-top: 30px;   /* Space above the line */
+    margin-top: 20px;   /* Space above the line */
     margin-bottom: 50px; /* Space below the line */
   }
 
@@ -205,28 +208,16 @@ html {
 }
        
 .button {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Source Sans 3;
     color: #ffffff;
     text-decoration: none;
-    border: 1.5px solid #393939;
+    border: 1.5px solid #505050;
     border-radius: 4px;
-    background-color: #393939;
+    background-color: #505050;
     padding: 14px 20px;
+    margin: 30px 0px;
     
-    cursor: pointer;
-    transition-duration: 0.3s;
-}
-
-.secondary-button {
-    font-size: 18px;
-    color: #222222;
-    text-decoration: none;
-    border: 1.5px solid #373737;
-    border-radius: 4px;
-    background-color: #ffffff;
-    padding: 14px 20px;
-    margin: 50px 0px;
     cursor: pointer;
     transition-duration: 0.3s;
 }
@@ -237,10 +228,6 @@ html {
     color: #393939;
 }
 
-.secondary-button:hover {
-    background-color: #fafafa;
-    border: 1.5px solid #222222;
-}
 
 
 /* Blog Page CSS */
@@ -607,13 +594,7 @@ html {
         font-size: 18px;
         margin-bottom: 10px;
     }
-        
-    .button {
-        font-size: 17px;
-        padding: 10px 18px;
-        margin: 10px 0px 30px;
-        }
-
+ 
     .footer-flex-container {
         flex-direction: column;
         align-items: center;
@@ -687,7 +668,7 @@ html {
     .research-card {
         display: grid;
         margin: 0px auto;
-        padding: 80px 0px;
+        padding: 50px 0px;
         grid-template-columns: 40% 55%;
         grid-column-gap: 5%;
         align-items: center;
@@ -698,34 +679,29 @@ html {
       }
 
     .research-img-container {
-        height: 600px;
+        height: 500px;
         overflow: hidden;
         border-radius: 12px;
       }
-    
+
     .research-img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center top; /* Adjust for more/less headroom */
+        object-position: center top;
         display: block;
       }
-    
+
     .research-text {
         height: 100%;
-        background-color: #faf6f3;
+        background-color: #ffffff;
         border-radius: 12px;
+        border: 1px solid #e0e0e0;
         padding: 0px 60px;
         display: flex;
         flex-direction: column;
         justify-content: center;
       }
-    
-      .button {
-        font-size: 18px;
-        padding: 10px 18px;
-        margin: 50px 0px 30px;
-        }
 
     .footer-flex-container {
         display: flex;
@@ -754,9 +730,8 @@ html {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    
     .width {
-        width: 1040px;
+        width: 1010px;
 
     }
 
@@ -775,7 +750,7 @@ html {
     .research-card {
         display: grid;
         margin: 0px auto;
-        padding: 80px 0px;
+        padding: 50px 0px;
         grid-template-columns: 40% 55%;
         grid-column-gap: 5%;
         align-items: center;
@@ -786,16 +761,16 @@ html {
       }
 
     .research-img-container {
-        height: 600px;
+        height: 450px;
         overflow: hidden;
         border-radius: 12px;
       }
-    
+
     .research-img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center top; /* Adjust for more/less headroom */
+        object-position: center top;
         display: block;
       }
 
@@ -804,9 +779,6 @@ html {
         padding: 200px 20px;
     }
     
-   
-    
-
 }
 
 
