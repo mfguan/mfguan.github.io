@@ -38,18 +38,20 @@ h3 {
 }
 
 h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin: 30px 0px;
+}
+
+h5 {
     font-size: 16px;
     font-weight: 500;
     color: #393939;
     margin: 20px 0px;
 }
 
-h5 {
-    font-size: 16px;
-    font-weight: 400;
-    color: #393939;
-    margin: 20px 0px;
-}
+
 
 a {
     text-decoration: none;
@@ -57,8 +59,8 @@ a {
 }
 
 .title-underline {
-    width: 150px;       /* Adjust the length of the line */
-    height: 2px;       /* Thickness of the line */
+    width: 160px;       /* Adjust the length of the line */
+    height: 1px;       /* Thickness of the line */
     background-color: #4a4a4a; /* Change the color if needed */
     margin-top: 20px;   /* Space above the line */
     margin-bottom: 50px; /* Space below the line */
